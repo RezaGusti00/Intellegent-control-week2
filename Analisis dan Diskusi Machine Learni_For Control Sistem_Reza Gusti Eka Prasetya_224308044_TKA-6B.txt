@@ -1,0 +1,23 @@
+Analisis dan Diskusi Machine Learning for Control Systems 
+•	Analisis Hasil :
+1.	Bagaimana performa model dalam mendeteksi warna?
+Jawab : 
+	Performanya memiliki kemampuan yang cukup baik dalam mendeteksi warna, tetapi ada beberapa kekurangan yang bisa memengaruhi performa model tersebut. Akurasi model tergantung pada jumlah data warna yang tersedia dalam dataset dan nilai k yang digunakan. Jika dataset warna kurang beragam, model bisa kesulitan membedakan warna yang mirip. Faktor lain yang memengaruhi performa adalah pencahayaan dan kualitas kamera. Jika pencahayaan berubah atau kamera menangkap warna yang tidak sesuai dengan kondisi sebenarnya, model bisa memberikan hasil prediksi yang kurang akurat.
+2.	Bagaimana perbedaan akurasi jika jumlah dataset ditambah?
+ Jawab :
+	Jika jumlah dataset warna ditambah, akurasi model umumnya akan meningkat karena model memiliki lebih banyak referensi warna untuk dipelajari. Dengan lebih banyak data, model dapat mengenali variasi warna yang lebih luas dan membedakan warna-warna yang mirip dengan lebih baik. Misalnya, jika sebelumnya model hanya memiliki satu data untuk warna biru muda, maka dengan dataset yang lebih besar, model bisa belajar berbagai nuansa biru, sehingga tidak mudah tertukar dengan cyan atau biru tua.
+3.	Bagaimana cara meningkatkan kinerja model klasifikasi?
+ Jawab :
+Untuk meningkatkan kinerja model klasifikasi, ada beberapa langkah yang bisa dilakukan. seperti, menambah jumlah data latih agar model memiliki lebih banyak contoh untuk dipelajari. Semakin banyak data, semakin baik model dalam mengenali pola dan membedakan kategori yang mirip. Kedua, melakukan normalisasi atau standarisasi data, seperti menggunakan StandardScaler, agar setiap fitur memiliki skala yang seragam, sehingga model tidak terlalu dipengaruhi oleh nilai yang besar atau kecil. Selain itu, memilih algoritma yang tepat juga penting. Misalnya, jika K-Nearest Neighbors (KNN) terlalu lambat, kita bisa mencoba Decision Tree atau Random Forest, yang lebih cepat dalam membuat prediksi. 
+
+•	Diskusi :
+1.	Apa keuntungan Machine Learning dibandingkan metode berbasis aturan (rule-based)?
+Jawab : 
+Keuntungan Machine Learning  dibandingkan metode berbasis aturan (rule-based) terdapat pada kemampuannya untuk belajar dari data melalui contoh, adaptasi terhadap perubahan lingkungan tanpa pemrograman eksplisit, dan menangani kompleksitas permasalahan yang sulit dipecahkan dengan mengenali pola-pola rumit dalam data. Contohnya adalah teknologi Face ID pada smartphone, yang dapat mengenali pemiliknya dengan sangat akurat meskipun wajahnya sedikit berubah, misalnya karena memakai kacamata atau memiliki ekspresi berbeda. Dengan pendekatan ML, sistem ini lebih adaptif dan mampu mengenali wajah secara lebih alami dibandingkan metode berbasis aturan.
+2.	Bagaimana ML dapat diintegrasikan lebih lanjut dalam system kendali?
+Jawab : 
+ML dapat diintegrasikan lebih lanjut dalam sistem kendali melalui pengendalian adaptif dan prediktif, optimasi proses dan sumber daya, deteksi anomali dan diagnosis, pengembangan sistem kendali otonom serta peningkatan keamanan siber.
+3.	Apa saja tantangan dalam penerapan ML dalam system real-time?
+Jawab : 
+Penerapan ML dalam sistem real-time menghadapi beberapa tantangan seperti kebutuhan akan data berkualitas tinggi dan relevan, interpretasi model ML untuk memastikan kepercayaan dan akuntabilitas, jaminan keamanan dan keandalan sistem ML, serta ketersediaan keahlian dan sumber daya yang mumpuni. Untuk mengatasi tantangan ini, diperlukan optimasi algoritma yang lebih efisien, dan peningkatan kapasitas perangkat keras, yang mengombinasikan machine learning (ML) dengan metode konvensional.
+	
